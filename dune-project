@@ -1,6 +1,6 @@
 (lang dune 3.6)
 
-(name ocaml_ptrace)
+(name libgen)
 
 (generate_opam_files true)
 
@@ -16,7 +16,7 @@
 (documentation https://github.com/muqiuhan/ocaml_ptrace)
 
 (package
- (name ocaml_ptrace)
+ (name libgen)
  (allow_empty)
  (synopsis "OCaml libgen bindings")
  (description "OCaml libgen bindings")

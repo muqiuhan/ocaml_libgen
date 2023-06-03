@@ -1,3 +1,3 @@
 (library
- (name libgen)
+ (public_name libgen)
  (foreign_stubs (language c) (names libgen_stubs)))
