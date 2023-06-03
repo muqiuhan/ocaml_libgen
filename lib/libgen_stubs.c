@@ -8,7 +8,7 @@
 
 /* Return directory part of PATH or "." if none is available.  */
 value
-ocaml_dirname (value ocaml_path_value)
+__ocaml_dirname (value ocaml_path_value)
 {
   CAMLparam1 (ocaml_path_value);
 
@@ -23,7 +23,7 @@ ocaml_dirname (value ocaml_path_value)
    <string.h>) and only if this header is included make the XPG
    version available under the real name.  */
 value
-ocaml__xpg_basename (value ocaml_path)
+__ocaml__xpg_basename (value ocaml_path)
 {
   CAMLparam1 (ocaml_path);
 
