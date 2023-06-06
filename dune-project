@@ -13,14 +13,14 @@
 
 (license MIT)
 
-(documentation https://github.com/muqiuhan/ocaml_ptrace)
+(documentation https://github.com/muqiuhan/ocaml_libgen)
 
 (package
  (name libgen)
  (allow_empty)
  (synopsis "OCaml libgen bindings")
  (description "OCaml libgen bindings")
- (depends ocaml dune)
+ (depends (ocaml dune)
  (tags
   (libgen bindings)))
 

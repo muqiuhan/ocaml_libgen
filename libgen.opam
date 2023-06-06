@@ -7,10 +7,10 @@ authors: ["Muqiu Han"]
 license: "MIT"
 tags: ["libgen" "bindings"]
 homepage: "https://github.com/muqiuhan/ocaml_libgen"
-doc: "https://github.com/muqiuhan/ocaml_ptrace"
+doc: "https://github.com/muqiuhan/ocaml_libgen"
 bug-reports: "https://github.com/muqiuhan/ocaml_libgen/issues"
 depends: [
-  "ocaml"
+  "ocaml" {>= "4.13"}
   "dune" {>= "3.6"}
   "odoc" {with-doc}
 ]
